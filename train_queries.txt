@@ -1,0 +1,100 @@
+can_travel(H, S).
+same_region_person(R1, L3).
+ancestor(C, L3).
+grandparent(G, B).
+market_in(B, A), lives_in(talia_lunaris, A), trade_reach(B, kingdom_asteria).
+influence(R1, Z).
+same_house(L, H2).
+same_region_person(B, A), same_house(seris_solaris, A), lives_in(B, goldmarket).
+same_house(A, brom_emberfall), lives_in(A, emberfall_hold).
+can_travel(B, A), can_travel(darius_solaris, A), same_region_person(C, B), spouse(B, C).
+bonds_with(aelric_solaris, A), war_beast(A), dragon(A).
+can_travel(B, D).
+descendant(R, L).
+connected_region(S, Z).
+fealty_chain(L, H1).
+child(L1, X).
+resident_of(A, B), regional_subject(A, B), regional_subject(C, B), same_region_person(evan_riverwyn, C).
+same_house(B, A), same_house(cassian_lunaris, A), serves(vessa_lunaris, B).
+adult(L).
+overlord(B, A), member_of_house(C, A), house_member(evan_riverwyn, B), alive(C).
+same_region_person(selene_lunaris, A), child(B, A), regional_subject(B, C), regional_subject(selene_lunaris, C).
+same_house(L, R1).
+same_house(B, B).
+descendant(C, B).
+same_house(H2, L1).
+fealty_chain(C, A).
+same_region_person(S, A).
+mother(B, X).
+member_of_order(seris_solaris, A), member_of_order(vessa_lunaris, A).
+same_region_person(B, A), mother(A, maeve_solaris), same_house(A, A), same_region_person(orion_solaris, B), ancestor(A, B).
+person(H1).
+same_house(L3, L3).
+child(D, X).
+same_region_person(R2, B).
+influence(A, B), influence(A, southern_realm), connected_region(B, B), resident_of(aelric_solaris, B), sworn_to(house_lunaris, A).
+adult(H1).
+same_region_person(G, R2).
+same_house(H2, L3).
+grandparent(alina_riverwyn, A), same_region_person(A, maris_riverwyn).
+can_travel(H, B).
+same_region_person(C, Y).
+house_member(A, house_emberfall), same_house(A, A).
+can_travel(Y, R).
+descendant(R1, R2).
+fealty_chain(A, maris_riverwyn), serves(A, maris_riverwyn), child(A, maris_riverwyn).
+adult(D).
+same_region_person(S, L3).
+same_region_person(C, A), ancestor(A, B), same_house(D, B), father(C, briar_thornvale), same_house(D, darian_stoneward).
+can_travel(L1, G).
+female(A), same_house(B, A), same_region_person(B, C), child(C, cassian_lunaris).
+eligible_council(H).
+can_travel(R1, L).
+same_house(A, A), can_travel(A, B), can_travel(C, B), same_house(C, elara_solaris).
+same_house(A, Z).
+same_region_person(D, H2).
+can_travel(R1, H).
+can_travel(R2, L2).
+lives_in(A, emberfall_hold), spouse(A, kaela_emberfall).
+can_travel(A, B), same_region_person(A, A), can_travel(lyra_thornvale, B).
+market_in(A, C), trade_reach(A, B), can_travel(tessa_stoneward, B), lives_in(D, C), same_house(D, kara_stoneward).
+ancestor(C, R2).
+same_house(B, A), regional_subject(A, thornwood), ancestor(B, wren_thornvale).
+resident_of(R2, H1).
+descendant(S, R2).
+market_in(C, A), located_in(A, cinderlands), lives_in(B, A), child(B, myra_emberfall), trade_reach(C, kingdom_asteria).
+same_region_person(L3, R2).
+lives_in(liora_solaris, A), located_in(A, sunreach).
+same_region_person(A, G).
+lives_in(faye_thornvale, A), located_in(A, B), can_travel(talia_lunaris, B), lives_in(briar_thornvale, A).
+eligible_council(L2).
+noble(L).
+same_house(A, galen_stoneward), can_travel(A, B), resident_of(cedric_thornvale, B), same_region_person(A, owen_stoneward).
+resident_of(B, A), part_of(A, kingdom_asteria), regional_subject(elara_solaris, A), influence(house_solaris, A), ancestor(aelric_solaris, B).
+same_house(R2, S).
+descendant(R1, A).
+same_region_person(H, H1).
+can_travel(L1, H).
+same_region_person(G, X).
+same_region_person(B, B).
+same_house(H2, Y).
+descendant(A, C), child(A, B), same_house(A, A), same_house(B, B), alive(C).
+fealty_chain(X, Z).
+can_travel(A, moonfen), same_region_person(A, cedric_thornvale).
+ancestor(aelric_solaris, A), same_house(A, seris_solaris).
+can_travel(G, S).
+can_travel(Y, G).
+same_region_person(X, A).
+regional_subject(H, L3).
+same_region_person(darian_stoneward, A), same_region_person(B, A), father(A, petra_stoneward), same_region_person(bram_stoneward, B), descendant(B, rowan_thornvale).
+can_travel(A, moonfen), can_travel(A, stonecoast).
+descendant(B, A), same_region_person(faye_thornvale, A), same_region_person(tessa_stoneward, B).
+age_group(A, B), regional_subject(A, kingdom_asteria), age_group(elara_solaris, B), grandparent(A, faye_thornvale).
+same_region_person(B, A), same_region_person(leon_lunaris, A), same_house(B, C), parent(nyra_lunaris, C).
+person(A), same_house(A, B), fealty_chain(B, selene_lunaris), grandparent(nyra_lunaris, B).
+same_house(nella_riverwyn, A), regional_subject(A, B), resident_of(C, B), same_house(C, nella_riverwyn).
+bonds_with(toren_emberfall, A), war_beast(A).
+same_region_person(darius_solaris, A), same_region_person(A, seris_solaris), serves(A, aelric_solaris).
+serves(evan_riverwyn, A), mother(A, B), parent(A, mira_riverwyn), same_region_person(B, A), same_house(B, A).
+child(S, R2).
+child(A, R).
