@@ -1,0 +1,492 @@
+male(orion_solaris).
+member_of_house(orion_solaris, house_solaris).
+alive(orion_solaris).
+female(elara_solaris).
+member_of_house(elara_solaris, house_solaris).
+alive(elara_solaris).
+male(aelric_solaris).
+member_of_house(aelric_solaris, house_solaris).
+alive(aelric_solaris).
+female(maeve_solaris).
+member_of_house(maeve_solaris, house_solaris).
+alive(maeve_solaris).
+female(seris_solaris).
+member_of_house(seris_solaris, house_solaris).
+alive(seris_solaris).
+male(caelan_solaris).
+member_of_house(caelan_solaris, house_solaris).
+alive(caelan_solaris).
+female(liora_solaris).
+member_of_house(liora_solaris, house_solaris).
+alive(liora_solaris).
+male(darius_solaris).
+member_of_house(darius_solaris, house_solaris).
+alive(darius_solaris).
+male(theron_lunaris).
+member_of_house(theron_lunaris, house_lunaris).
+alive(theron_lunaris).
+female(nyra_lunaris).
+member_of_house(nyra_lunaris, house_lunaris).
+alive(nyra_lunaris).
+female(selene_lunaris).
+member_of_house(selene_lunaris, house_lunaris).
+alive(selene_lunaris).
+male(cassian_lunaris).
+member_of_house(cassian_lunaris, house_lunaris).
+alive(cassian_lunaris).
+female(vessa_lunaris).
+member_of_house(vessa_lunaris, house_lunaris).
+alive(vessa_lunaris).
+female(iris_lunaris).
+member_of_house(iris_lunaris, house_lunaris).
+alive(iris_lunaris).
+male(leon_lunaris).
+member_of_house(leon_lunaris, house_lunaris).
+alive(leon_lunaris).
+female(talia_lunaris).
+member_of_house(talia_lunaris, house_lunaris).
+alive(talia_lunaris).
+male(brom_emberfall).
+member_of_house(brom_emberfall, house_emberfall).
+alive(brom_emberfall).
+female(kaela_emberfall).
+member_of_house(kaela_emberfall, house_emberfall).
+alive(kaela_emberfall).
+male(toren_emberfall).
+member_of_house(toren_emberfall, house_emberfall).
+alive(toren_emberfall).
+female(myra_emberfall).
+member_of_house(myra_emberfall, house_emberfall).
+alive(myra_emberfall).
+male(garrick_emberfall).
+member_of_house(garrick_emberfall, house_emberfall).
+alive(garrick_emberfall).
+male(ren_emberfall).
+member_of_house(ren_emberfall, house_emberfall).
+alive(ren_emberfall).
+female(sylvi_emberfall).
+member_of_house(sylvi_emberfall, house_emberfall).
+alive(sylvi_emberfall).
+male(pyr_emberfall).
+member_of_house(pyr_emberfall, house_emberfall).
+alive(pyr_emberfall).
+male(corin_riverwyn).
+member_of_house(corin_riverwyn, house_riverwyn).
+alive(corin_riverwyn).
+female(alina_riverwyn).
+member_of_house(alina_riverwyn, house_riverwyn).
+alive(alina_riverwyn).
+female(maris_riverwyn).
+member_of_house(maris_riverwyn, house_riverwyn).
+alive(maris_riverwyn).
+male(evan_riverwyn).
+member_of_house(evan_riverwyn, house_riverwyn).
+alive(evan_riverwyn).
+female(nella_riverwyn).
+member_of_house(nella_riverwyn, house_riverwyn).
+alive(nella_riverwyn).
+female(rhea_riverwyn).
+member_of_house(rhea_riverwyn, house_riverwyn).
+alive(rhea_riverwyn).
+male(kellan_riverwyn).
+member_of_house(kellan_riverwyn, house_riverwyn).
+alive(kellan_riverwyn).
+female(mira_riverwyn).
+member_of_house(mira_riverwyn, house_riverwyn).
+alive(mira_riverwyn).
+male(galen_stoneward).
+member_of_house(galen_stoneward, house_stoneward).
+alive(galen_stoneward).
+female(tessa_stoneward).
+member_of_house(tessa_stoneward, house_stoneward).
+alive(tessa_stoneward).
+male(darian_stoneward).
+member_of_house(darian_stoneward, house_stoneward).
+alive(darian_stoneward).
+female(petra_stoneward).
+member_of_house(petra_stoneward, house_stoneward).
+alive(petra_stoneward).
+male(owen_stoneward).
+member_of_house(owen_stoneward, house_stoneward).
+alive(owen_stoneward).
+male(bram_stoneward).
+member_of_house(bram_stoneward, house_stoneward).
+alive(bram_stoneward).
+female(kara_stoneward).
+member_of_house(kara_stoneward, house_stoneward).
+alive(kara_stoneward).
+male(nash_stoneward).
+member_of_house(nash_stoneward, house_stoneward).
+alive(nash_stoneward).
+male(rowan_thornvale).
+member_of_house(rowan_thornvale, house_thornvale).
+alive(rowan_thornvale).
+female(isolde_thornvale).
+member_of_house(isolde_thornvale, house_thornvale).
+alive(isolde_thornvale).
+female(lyra_thornvale).
+member_of_house(lyra_thornvale, house_thornvale).
+alive(lyra_thornvale).
+male(cedric_thornvale).
+member_of_house(cedric_thornvale, house_thornvale).
+alive(cedric_thornvale).
+female(briar_thornvale).
+member_of_house(briar_thornvale, house_thornvale).
+alive(briar_thornvale).
+female(faye_thornvale).
+member_of_house(faye_thornvale, house_thornvale).
+alive(faye_thornvale).
+male(ash_thornvale).
+member_of_house(ash_thornvale, house_thornvale).
+alive(ash_thornvale).
+female(wren_thornvale).
+member_of_house(wren_thornvale, house_thornvale).
+alive(wren_thornvale).
+spouse(orion_solaris, elara_solaris).
+spouse(elara_solaris, orion_solaris).
+spouse(aelric_solaris, maeve_solaris).
+spouse(maeve_solaris, aelric_solaris).
+parent(orion_solaris, aelric_solaris).
+parent(elara_solaris, aelric_solaris).
+parent(orion_solaris, maeve_solaris).
+parent(elara_solaris, maeve_solaris).
+parent(aelric_solaris, caelan_solaris).
+parent(maeve_solaris, caelan_solaris).
+parent(aelric_solaris, liora_solaris).
+parent(maeve_solaris, liora_solaris).
+parent(aelric_solaris, darius_solaris).
+parent(maeve_solaris, darius_solaris).
+parent(orion_solaris, seris_solaris).
+parent(elara_solaris, seris_solaris).
+spouse(theron_lunaris, nyra_lunaris).
+spouse(nyra_lunaris, theron_lunaris).
+spouse(selene_lunaris, cassian_lunaris).
+spouse(cassian_lunaris, selene_lunaris).
+parent(theron_lunaris, selene_lunaris).
+parent(nyra_lunaris, selene_lunaris).
+parent(theron_lunaris, cassian_lunaris).
+parent(nyra_lunaris, cassian_lunaris).
+parent(selene_lunaris, iris_lunaris).
+parent(cassian_lunaris, iris_lunaris).
+parent(selene_lunaris, leon_lunaris).
+parent(cassian_lunaris, leon_lunaris).
+parent(selene_lunaris, talia_lunaris).
+parent(cassian_lunaris, talia_lunaris).
+parent(theron_lunaris, vessa_lunaris).
+parent(nyra_lunaris, vessa_lunaris).
+spouse(brom_emberfall, kaela_emberfall).
+spouse(kaela_emberfall, brom_emberfall).
+spouse(toren_emberfall, myra_emberfall).
+spouse(myra_emberfall, toren_emberfall).
+parent(brom_emberfall, toren_emberfall).
+parent(kaela_emberfall, toren_emberfall).
+parent(brom_emberfall, myra_emberfall).
+parent(kaela_emberfall, myra_emberfall).
+parent(toren_emberfall, ren_emberfall).
+parent(myra_emberfall, ren_emberfall).
+parent(toren_emberfall, sylvi_emberfall).
+parent(myra_emberfall, sylvi_emberfall).
+parent(toren_emberfall, pyr_emberfall).
+parent(myra_emberfall, pyr_emberfall).
+parent(brom_emberfall, garrick_emberfall).
+parent(kaela_emberfall, garrick_emberfall).
+spouse(corin_riverwyn, alina_riverwyn).
+spouse(alina_riverwyn, corin_riverwyn).
+spouse(maris_riverwyn, evan_riverwyn).
+spouse(evan_riverwyn, maris_riverwyn).
+parent(corin_riverwyn, maris_riverwyn).
+parent(alina_riverwyn, maris_riverwyn).
+parent(corin_riverwyn, evan_riverwyn).
+parent(alina_riverwyn, evan_riverwyn).
+parent(maris_riverwyn, rhea_riverwyn).
+parent(evan_riverwyn, rhea_riverwyn).
+parent(maris_riverwyn, kellan_riverwyn).
+parent(evan_riverwyn, kellan_riverwyn).
+parent(maris_riverwyn, mira_riverwyn).
+parent(evan_riverwyn, mira_riverwyn).
+parent(corin_riverwyn, nella_riverwyn).
+parent(alina_riverwyn, nella_riverwyn).
+spouse(galen_stoneward, tessa_stoneward).
+spouse(tessa_stoneward, galen_stoneward).
+spouse(darian_stoneward, petra_stoneward).
+spouse(petra_stoneward, darian_stoneward).
+parent(galen_stoneward, darian_stoneward).
+parent(tessa_stoneward, darian_stoneward).
+parent(galen_stoneward, petra_stoneward).
+parent(tessa_stoneward, petra_stoneward).
+parent(darian_stoneward, bram_stoneward).
+parent(petra_stoneward, bram_stoneward).
+parent(darian_stoneward, kara_stoneward).
+parent(petra_stoneward, kara_stoneward).
+parent(darian_stoneward, nash_stoneward).
+parent(petra_stoneward, nash_stoneward).
+parent(galen_stoneward, owen_stoneward).
+parent(tessa_stoneward, owen_stoneward).
+spouse(rowan_thornvale, isolde_thornvale).
+spouse(isolde_thornvale, rowan_thornvale).
+spouse(lyra_thornvale, cedric_thornvale).
+spouse(cedric_thornvale, lyra_thornvale).
+parent(rowan_thornvale, lyra_thornvale).
+parent(isolde_thornvale, lyra_thornvale).
+parent(rowan_thornvale, cedric_thornvale).
+parent(isolde_thornvale, cedric_thornvale).
+parent(lyra_thornvale, faye_thornvale).
+parent(cedric_thornvale, faye_thornvale).
+parent(lyra_thornvale, ash_thornvale).
+parent(cedric_thornvale, ash_thornvale).
+parent(lyra_thornvale, wren_thornvale).
+parent(cedric_thornvale, wren_thornvale).
+parent(rowan_thornvale, briar_thornvale).
+parent(isolde_thornvale, briar_thornvale).
+rules_house(aelric_solaris, house_solaris).
+seat_of(house_solaris, sunspire_keep).
+rules_house(selene_lunaris, house_lunaris).
+seat_of(house_lunaris, moonwatch_castle).
+rules_house(toren_emberfall, house_emberfall).
+seat_of(house_emberfall, emberfall_hold).
+rules_house(maris_riverwyn, house_riverwyn).
+seat_of(house_riverwyn, rivermeet_hall).
+rules_house(darian_stoneward, house_stoneward).
+seat_of(house_stoneward, stonegate_keep).
+rules_house(lyra_thornvale, house_thornvale).
+seat_of(house_thornvale, thornvale_manor).
+age_group(orion_solaris, elder).
+age_group(elara_solaris, elder).
+age_group(aelric_solaris, adult).
+age_group(maeve_solaris, adult).
+age_group(seris_solaris, adult).
+age_group(caelan_solaris, adult).
+age_group(liora_solaris, adult).
+age_group(darius_solaris, adult).
+age_group(theron_lunaris, elder).
+age_group(nyra_lunaris, elder).
+age_group(selene_lunaris, adult).
+age_group(cassian_lunaris, adult).
+age_group(vessa_lunaris, adult).
+age_group(iris_lunaris, adult).
+age_group(leon_lunaris, adult).
+age_group(talia_lunaris, adult).
+age_group(brom_emberfall, elder).
+age_group(kaela_emberfall, elder).
+age_group(toren_emberfall, adult).
+age_group(myra_emberfall, adult).
+age_group(garrick_emberfall, adult).
+age_group(ren_emberfall, adult).
+age_group(sylvi_emberfall, adult).
+age_group(pyr_emberfall, adult).
+age_group(corin_riverwyn, elder).
+age_group(alina_riverwyn, elder).
+age_group(maris_riverwyn, adult).
+age_group(evan_riverwyn, adult).
+age_group(nella_riverwyn, adult).
+age_group(rhea_riverwyn, adult).
+age_group(kellan_riverwyn, adult).
+age_group(mira_riverwyn, adult).
+age_group(galen_stoneward, elder).
+age_group(tessa_stoneward, elder).
+age_group(darian_stoneward, adult).
+age_group(petra_stoneward, adult).
+age_group(owen_stoneward, adult).
+age_group(bram_stoneward, adult).
+age_group(kara_stoneward, adult).
+age_group(nash_stoneward, adult).
+age_group(rowan_thornvale, elder).
+age_group(isolde_thornvale, elder).
+age_group(lyra_thornvale, adult).
+age_group(cedric_thornvale, adult).
+age_group(briar_thornvale, adult).
+age_group(faye_thornvale, adult).
+age_group(ash_thornvale, adult).
+age_group(wren_thornvale, adult).
+part_of(sunreach, western_realm).
+part_of(moonfen, northern_realm).
+part_of(cinderlands, eastern_realm).
+part_of(riverlands, central_realm).
+part_of(stonecoast, southern_realm).
+part_of(thornwood, southern_realm).
+part_of(western_realm, kingdom_asteria).
+part_of(northern_realm, kingdom_asteria).
+part_of(eastern_realm, kingdom_asteria).
+part_of(central_realm, kingdom_asteria).
+part_of(southern_realm, kingdom_asteria).
+located_in(sunspire_keep, sunreach).
+located_in(moonwatch_castle, moonfen).
+located_in(emberfall_hold, cinderlands).
+located_in(rivermeet_hall, riverlands).
+located_in(stonegate_keep, stonecoast).
+located_in(thornvale_manor, thornwood).
+located_in(goldmarket, sunreach).
+located_in(mistharbor, moonfen).
+located_in(ashport, cinderlands).
+located_in(reedcross, riverlands).
+located_in(granite_bay, stonecoast).
+located_in(greenhollow, thornwood).
+lives_in(orion_solaris, sunspire_keep).
+lives_in(elara_solaris, sunspire_keep).
+lives_in(aelric_solaris, sunspire_keep).
+lives_in(maeve_solaris, sunspire_keep).
+lives_in(seris_solaris, sunspire_keep).
+lives_in(caelan_solaris, sunspire_keep).
+lives_in(liora_solaris, goldmarket).
+lives_in(darius_solaris, goldmarket).
+lives_in(theron_lunaris, moonwatch_castle).
+lives_in(nyra_lunaris, moonwatch_castle).
+lives_in(selene_lunaris, moonwatch_castle).
+lives_in(cassian_lunaris, moonwatch_castle).
+lives_in(vessa_lunaris, moonwatch_castle).
+lives_in(iris_lunaris, moonwatch_castle).
+lives_in(leon_lunaris, mistharbor).
+lives_in(talia_lunaris, mistharbor).
+lives_in(brom_emberfall, emberfall_hold).
+lives_in(kaela_emberfall, emberfall_hold).
+lives_in(toren_emberfall, emberfall_hold).
+lives_in(myra_emberfall, emberfall_hold).
+lives_in(garrick_emberfall, emberfall_hold).
+lives_in(ren_emberfall, emberfall_hold).
+lives_in(sylvi_emberfall, ashport).
+lives_in(pyr_emberfall, ashport).
+lives_in(corin_riverwyn, rivermeet_hall).
+lives_in(alina_riverwyn, rivermeet_hall).
+lives_in(maris_riverwyn, rivermeet_hall).
+lives_in(evan_riverwyn, rivermeet_hall).
+lives_in(nella_riverwyn, rivermeet_hall).
+lives_in(rhea_riverwyn, rivermeet_hall).
+lives_in(kellan_riverwyn, reedcross).
+lives_in(mira_riverwyn, reedcross).
+lives_in(galen_stoneward, stonegate_keep).
+lives_in(tessa_stoneward, stonegate_keep).
+lives_in(darian_stoneward, stonegate_keep).
+lives_in(petra_stoneward, stonegate_keep).
+lives_in(owen_stoneward, stonegate_keep).
+lives_in(bram_stoneward, stonegate_keep).
+lives_in(kara_stoneward, granite_bay).
+lives_in(nash_stoneward, granite_bay).
+lives_in(rowan_thornvale, thornvale_manor).
+lives_in(isolde_thornvale, thornvale_manor).
+lives_in(lyra_thornvale, thornvale_manor).
+lives_in(cedric_thornvale, thornvale_manor).
+lives_in(briar_thornvale, thornvale_manor).
+lives_in(faye_thornvale, thornvale_manor).
+lives_in(ash_thornvale, greenhollow).
+lives_in(wren_thornvale, greenhollow).
+sworn_to(house_solaris, crown_of_asteria).
+sworn_to(house_lunaris, crown_of_asteria).
+sworn_to(house_emberfall, crown_of_asteria).
+sworn_to(house_riverwyn, house_solaris).
+sworn_to(house_stoneward, house_emberfall).
+sworn_to(house_thornvale, house_lunaris).
+serves(caelan_solaris, aelric_solaris).
+serves(liora_solaris, aelric_solaris).
+serves(darius_solaris, aelric_solaris).
+serves(maeve_solaris, aelric_solaris).
+serves(seris_solaris, aelric_solaris).
+serves(iris_lunaris, selene_lunaris).
+serves(leon_lunaris, selene_lunaris).
+serves(talia_lunaris, selene_lunaris).
+serves(cassian_lunaris, selene_lunaris).
+serves(vessa_lunaris, selene_lunaris).
+serves(ren_emberfall, toren_emberfall).
+serves(sylvi_emberfall, toren_emberfall).
+serves(pyr_emberfall, toren_emberfall).
+serves(myra_emberfall, toren_emberfall).
+serves(garrick_emberfall, toren_emberfall).
+serves(rhea_riverwyn, maris_riverwyn).
+serves(kellan_riverwyn, maris_riverwyn).
+serves(mira_riverwyn, maris_riverwyn).
+serves(evan_riverwyn, maris_riverwyn).
+serves(nella_riverwyn, maris_riverwyn).
+serves(bram_stoneward, darian_stoneward).
+serves(kara_stoneward, darian_stoneward).
+serves(nash_stoneward, darian_stoneward).
+serves(petra_stoneward, darian_stoneward).
+serves(owen_stoneward, darian_stoneward).
+serves(faye_thornvale, lyra_thornvale).
+serves(ash_thornvale, lyra_thornvale).
+serves(wren_thornvale, lyra_thornvale).
+serves(cedric_thornvale, lyra_thornvale).
+serves(briar_thornvale, lyra_thornvale).
+serves(evan_riverwyn, aelric_solaris).
+serves(owen_stoneward, toren_emberfall).
+serves(briar_thornvale, selene_lunaris).
+member_of_order(selene_lunaris, star_mages).
+member_of_order(seris_solaris, star_mages).
+member_of_order(vessa_lunaris, star_mages).
+member_of_order(lyra_thornvale, grove_circle).
+member_of_order(briar_thornvale, grove_circle).
+member_of_order(maeve_solaris, sun_priests).
+member_of_order(maris_riverwyn, river_priests).
+member_of_order(toren_emberfall, war_council).
+member_of_order(darian_stoneward, war_council).
+archmage(selene_lunaris).
+high_priest(maeve_solaris).
+high_priest(maris_riverwyn).
+dragon(solara).
+dragon(umbrix).
+dragon(cinder).
+dragon(tidewing).
+bonds_with(aelric_solaris, solara).
+bonds_with(selene_lunaris, umbrix).
+bonds_with(toren_emberfall, cinder).
+bonds_with(maris_riverwyn, tidewing).
+market_in(sun_guild, goldmarket).
+market_in(mist_guild, mistharbor).
+market_in(ash_guild, ashport).
+market_in(reed_guild, reedcross).
+market_in(granite_guild, granite_bay).
+market_in(grove_guild, greenhollow).
+road(sunreach, riverlands).
+road(riverlands, sunreach).
+road(riverlands, stonecoast).
+road(stonecoast, riverlands).
+road(riverlands, moonfen).
+road(moonfen, riverlands).
+road(riverlands, cinderlands).
+road(cinderlands, riverlands).
+road(stonecoast, thornwood).
+road(thornwood, stonecoast).
+road(moonfen, thornwood).
+road(thornwood, moonfen).
+person(X) :- male(X).
+person(X) :- female(X).
+noble(X) :- member_of_house(X, H).
+child(X, Y) :- parent(Y, X).
+father(X, Y) :- parent(X, Y), male(X).
+mother(X, Y) :- parent(X, Y), female(X).
+adult(X) :- age_group(X, adult).
+adult(X) :- age_group(X, elder).
+grandparent(X, Y) :- parent(X, Z), parent(Z, Y).
+ancestor(X, Y) :- parent(X, Y).
+ancestor(X, Y) :- parent(X, Z), ancestor(Z, Y).
+descendant(X, Y) :- ancestor(Y, X).
+house_member(X, H) :- member_of_house(X, H).
+house_head(X, H) :- rules_house(X, H).
+resident_of(X, R) :- lives_in(X, S), located_in(S, R).
+resident_of(X, R) :- lives_in(X, S), located_in(S, R1), part_of(R1, R).
+within_region(A, B) :- part_of(A, B).
+within_region(A, C) :- part_of(A, B), within_region(B, C).
+controls_region(H, R) :- seat_of(H, S), located_in(S, R).
+controls_region(H, R) :- seat_of(H, S), located_in(S, R1), within_region(R1, R).
+overlord(A, B) :- sworn_to(A, B).
+overlord(A, C) :- sworn_to(A, B), overlord(B, C).
+dragonrider(X) :- bonds_with(X, D), dragon(D).
+war_beast(D) :- dragon(D).
+mounted_warrior(X) :- dragonrider(X).
+eligible_council(X) :- noble(X), adult(X).
+eligible_council(X) :- high_priest(X).
+eligible_council(X) :- archmage(X).
+magic_user(X) :- member_of_order(X, star_mages).
+faith_leader(X) :- high_priest(X).
+trade_reach(G, R) :- market_in(G, S), located_in(S, R).
+trade_reach(G, R) :- market_in(G, S), located_in(S, R1), within_region(R1, R).
+connected_region(A, B) :- road(A, B).
+connected_region(A, C) :- road(A, B), connected_region(B, C).
+can_travel(X, R) :- resident_of(X, R).
+can_travel(X, R2) :- resident_of(X, R1), connected_region(R1, R2).
+fealty_chain(X, L) :- serves(X, L).
+fealty_chain(X, L2) :- serves(X, L1), serves(L1, L2).
+fealty_chain(X, L3) :- serves(X, L1), fealty_chain(L1, L3).
+influence(H, R) :- member_of_house(X, H), resident_of(X, R).
+influence(H2, R) :- sworn_to(H1, H2), influence(H1, R).
+same_house(X, Y) :- member_of_house(X, H), member_of_house(Y, H).
+same_region_person(X, Y) :- resident_of(X, R), resident_of(Y, R).
+regional_subject(X, R) :- member_of_house(X, H), controls_region(H, R).
